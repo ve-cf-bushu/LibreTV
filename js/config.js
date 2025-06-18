@@ -2,7 +2,7 @@
 const PROXY_URL = '/proxy/';    // 适用于 Cloudflare, Netlify (带重写), Vercel (带重写)
 // const HOPLAYER_URL = 'https://hoplayer.com/index.html';
 const SEARCH_HISTORY_KEY = 'videoSearchHistory';
-const MAX_HISTORY_ITEMS = 5;
+const MAX_HISTORY_ITEMS = 9;
 
 // 密码保护配置
 const PASSWORD_CONFIG = {
@@ -13,8 +13,8 @@ const PASSWORD_CONFIG = {
 
 // 网站信息配置
 const SITE_CONFIG = {
-    name: 'LibreTV',
-    url: 'https://libretv.is-an.org',
+    name: '影视站',
+    url: 'https://gov.cn',
     description: '免费在线视频搜索与观看平台',
     logo: 'image/logo.png',
     version: '1.0.3'
@@ -130,33 +130,33 @@ const API_SITES = {
         api: 'https://api.bwzym3u8.com',
         name: '百万资源',
         adult: true
-    // },
+    },
     souav: {
         api: 'https://api.souavzy.vip',
         name: 'souav资源',
         adult: true
-    // },
+    },
     r155: {
         api: 'https://155api.com',
         name: '155资源',
         adult: true
-    // },
+    },
     lsb: {
         api: 'https://apilsbzy1.com',
         name: 'lsb资源',
         adult: true
-    // },
+    },
     huangcang: {
         api: 'https://hsckzy.vip',
         name: '黄色仓库',
         adult: true,
         detail: 'https://hsckzy.vip'
-    // },
+    },
     yutu: {
         api: 'https://yutuzy10.com',
         name: '玉兔资源',
         adult: true
-    // },
+    },
 
     // 下面是资源失效率高的API源，不建议使用
     // subo: {
@@ -253,4 +253,4 @@ const CUSTOM_API_CONFIG = {
 };
 
 // 隐藏内置黄色采集站API的变量
-const HIDE_BUILTIN_ADULT_APIS = false;
+// const HIDE_BUILTIN_ADULT_APIS = false;
